@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>13-selector_seciciler</title>
+    <style>
+        /* *{
+            color: red;
+        } */
+
+
+        /* p{
+            color: red;
+        } */
+
+        /* p,a{
+            color: blue;
+        } */
+
+        /* div p {
+            color: red;
+        } */
+
+        /* div>p{
+            color: red;
+        } */
+
+        /* div+p{
+            color: red;
+        } */
+
+        /* div~p{
+            color: red;
+        } */
+
+        /* div>p:first-child{
+            color: red;
+        } */
+
+        /* div>p:last-child{
+            color: red;
+        } */
+
+        /* div>p:nth-child(3){
+            color: red;
+        } */
+
+        /* div>nav>a:nth-child(3){
+            color: red;
+        } */
+
+        /* .div2>ul>li:nth-child(3)
+        {
+            color: red;
+        } */
+
+        .div2 ul div li:first-child{
+            color: red;
+        }
+
+
+
+    </style>
+</head>
+<body>
+     <div>
+            <p>Paragraf1</p>
+            <p>Paragraf2</p>
+            <p>Paragraf3</p>
+            <p>Paragraf4</p>
+            <p>Paragraf5</p>
+       
+        <nav>
+            <p>Paragraf6</p>
+            <a href="">link1</a>
+            <a href="">link2</a>
+            <a href="">link3</a>
+        </nav>
+
+        <a href="">link4</a>
+        <a href="">link5</a>
+
+    </div>
+
+
+    <div class="div2">
+        <p>Paragraf6</p>
+        <ul>
+            <li>li etiketi 1</li>
+            <li>li etiketi 2</li>
+            <li>li etiketi 3</li>
+
+            <div>
+                <li>li etiketi 4</li>
+            </div>
+
+        </ul>
+
+        <p>Paragraf7</p>
+        <p>Paragraf8</p>
+    </div>
+
+    <p>Paragraf9</p>
+    <p>Paragraf10</p>
+
+
+    <div>
+        <h3>h3 etiketi 1</h3>
+    </div>
+
+    <h3>h3 etiketi 2</h3>
+    <h3>h3 etiketi 3</h3>
+    <h3>h3 etiketi 4</h3>
+
+    
+</body>
+</html>
