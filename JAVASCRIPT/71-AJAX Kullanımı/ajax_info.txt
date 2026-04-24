@@ -1,0 +1,9 @@
+<h1>İçerik AJAX ile değiştirildi ✅</h1>
+
+
+<p>🧠 Bu içerik, JavaScript içindeki <code>loadDoc()</code> fonksiyonu sayesinde AJAX ile buraya yüklendi.</p>
+<p>🧩 <code>XMLHttpRequest</code> nesnesi kullanılarak bu dosya sunucudan alındı ve <code>innerHTML</code> ile <code>&lt;div id="demo"&gt;</code> içerisine yerleştirildi.</p>
+<p>🚀 Böylece, butona tıklanmasıyla sayfadaki içerik dinamik olarak değişmiş oldu.</p>
+
+
+

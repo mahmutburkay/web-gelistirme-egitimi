@@ -1,0 +1,27 @@
+[
+    {
+        "id": 1,
+        "firstname": "Enes",
+        "lastname": "Bayram"
+    },
+    {
+        "id": 2,
+        "firstname": "Mehmet Mahmut",
+        "lastname": "Burkay"
+    },
+    {
+        "id": 3,
+        "firstname": "Bilal",
+        "lastname": "Çamur"
+    },
+    {
+        "id": 4,
+        "firstname": "Kübra",
+        "lastname": "Demir"
+    },
+    {
+        "id": 5,
+        "firstname": "Ayşenur",
+        "lastname": "Aydoğdu"
+    }
+]
